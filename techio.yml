@@ -4,8 +4,8 @@ title : 319 - Concevoir et implémenter des applications
 plan:
   - title: Bienvenu # Set the page title (only displayed if your contribution has several pages)
     statement: markdowns/Bienvenu.md # Set the file path to the page content
-  - title: Les variables
-    statement: markdowns/Variables.md
+  - title: Les types de base
+    statement: markdowns/typeDeBase.md
 
 
 # Settings for your programming projects and the associated Docker images

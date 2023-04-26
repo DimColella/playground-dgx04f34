@@ -12,3 +12,5 @@ Ils sont au nombre de 8
 | float | flottant (réel) | 4 | -1.4*10^-45 à 3.4*10^38 |
 | double | flottant double | 8 | 4.9*10^-324 à 1.7*10^308 |
 | boolean | booléen | 1 | true ou false |
+
+@[Créez une variable de type entier ayant la valeur 4]({"stubs": ["src/main/java/com/yourself/TypeDeBase.java"], "command": "com.yourself.TypeDeBaseTest#test"})

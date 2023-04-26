@@ -13,7 +13,7 @@ public class TypeDeBaseTest {
         try {
             Assert.assertTrue(existsInFile("int i = 4;", new File("./src/main/java/com/yourself/TypeDeBase.java")));
             success(true);
-        } catch (Exception ex) {
+        } catch (AssertionError | FileNotFoundException ae) {
             msg("Aïe", "La création de la variable n'est pas correcte... réessayez");
             success(false);
         }
